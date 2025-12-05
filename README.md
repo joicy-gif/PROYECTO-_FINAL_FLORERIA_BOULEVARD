@@ -30,33 +30,39 @@ Seguridad: Encriptación de contraseñas y validación anti-bots.
 
 ✨ Características Principales
 
-Dashboard Ejecutivo: Gráficas estadísticas de stock y tarjetas de resumen.
+📊 Dashboard Ejecutivo
 
-Gestión de Inventario (CRUD):
+Visualización de Datos: Gráficas estadísticas de stock en tiempo real.
 
-Alta, baja y modificación de productos.
+Resumen Rápido: Tarjetas informativas con indicadores clave del negocio.
 
-Eliminación Lógica: Los productos no se borran, cambian de estado para preservar el historial.
+📦 Gestión de Inventario (CRUD)
 
-Alertas visuales de "Stock Crítico".
+Control Total: Alta, baja y modificación de productos con facilidad.
 
-Punto de Venta (POS):
+Eliminación Lógica: Los productos no se borran, cambian de estado para preservar el historial de ventas.
 
-Carrito de compras interactivo.
+Alertas Inteligentes: Indicadores visuales automáticos para productos con "Stock Crítico".
 
-Selección y registro rápido de clientes (NIT/CI).
+🛒 Punto de Venta (POS)
 
-Descuento automático de stock al confirmar la venta.
+Venta Rápida: Carrito de compras interactivo y fácil de usar.
 
-Reportes Inteligentes:
+Gestión de Clientes: Selección y registro rápido de clientes (NIT/CI) sin salir de la venta.
 
-Generación de PDFs para Inventario Valorizado y Tickets de Venta.
+Sincronización: Descuento automático de stock al confirmar la transacción.
 
-Seguridad:
+📄 Reportes Inteligentes
 
-Login con Captcha Matemático.
+Exportación Profesional: Generación de PDFs para Inventario Valorizado.
 
-Auditoría de accesos (Logs de IP y fecha).
+Comprobantes: Emisión automática de Tickets de Venta listos para imprimir.
+
+🔒 Seguridad Avanzada
+
+Acceso Blindado: Login con Captcha Matemático anti-bots.
+
+Auditoría Completa: Registro detallado de accesos (Logs de IP, navegador y fecha).
 
 📋 Requisitos de Instalación
 
