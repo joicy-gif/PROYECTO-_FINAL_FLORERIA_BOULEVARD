@@ -1,0 +1,16 @@
+# --- Dependencias (NUNCA subir esto, pesan demasiado) ---
+node_modules/
+/BACKEND/node_modules/
+/FRONTEND/node_modules/
+
+# --- Archivos de Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Archivos de Build (Se generan solos) ---
+dist/
+build/
+/FRONTEND/dist/
+
+# --- Variables de entorno (Claves secretas) ---
+.env
