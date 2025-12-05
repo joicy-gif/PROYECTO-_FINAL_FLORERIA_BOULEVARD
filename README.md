@@ -1,18 +1,16 @@
 <div align="center">
 
-🌸 Florería Boulevard
+🌸 FLORERÍA BOULEVARD
 
 Sistema de Gestión Integral
 
-Desarrollado por: JOICY MARIJO QUISPE QUISPE
+Desarrollado por: ### ✨ JOICY MARIJO QUISPE QUISPE ✨
 
-</div>
-
-📖 Descripción del Proyecto
+📖 DESCRIPCIÓN DEL PROYECTO
 
 Florería Boulevard es una solución tecnológica Full Stack diseñada para transformar la administración de negocios de floristería. Reemplaza los registros manuales por una plataforma digital robusta, optimizando el control de inventarios y agilizando el flujo de ventas.
 
-🛠️ Tecnologías (Tech Stack)
+🛠️ TECNOLOGÍAS (TECH STACK)
 
 Área
 
@@ -24,83 +22,99 @@ Frontend
 
 
 
-Interfaz moderna y responsiva con Vite y Tailwind CSS.
+Interfaz moderna con Vite y Tailwind.
 
 Backend
 
 
 
-API RESTful rápida y escalable con Express.
+API RESTful rápida con Express.
 
 Base de Datos
 
 
 
-Persistencia relacional para integridad de datos.
+Integridad de datos relacional.
 
 Seguridad
 
 
 
-Encriptación de contraseñas y protección anti-bots.
+Encriptación y protección anti-bots.
 
-✨ Módulos y Características
+🚀 MÓDULOS Y CARACTERÍSTICAS
 
-El sistema se divide en 5 módulos clave diseñados para la eficiencia operativa.
+<div align="center">
 
-📊 1. Dashboard Ejecutivo
+📊 1. DASHBOARD EJECUTIVO
 
 Un panel de control visual para la toma de decisiones.
 
-Gráficas en Tiempo Real: Visualiza el stock por categorías al instante.
+• Gráficas en Tiempo Real: Visualiza el stock por categorías al instante.
 
-KPIs: Tarjetas de resumen con los indicadores más importantes del día.
 
-📦 2. Gestión de Inventario
+
+• KPIs: Tarjetas de resumen con los indicadores más importantes del día.
+
+📦 2. GESTIÓN DE INVENTARIO
 
 Control total sobre tus productos.
 
-CRUD Completo: Crea, edita y gestiona flores y arreglos.
+• CRUD Completo: Crea, edita y gestiona flores y arreglos.
 
-Eliminación Lógica: Los productos nunca se pierden; cambian de estado para mantener la historia.
 
-🚦 Semáforo de Stock: Alertas visuales automáticas cuando un producto está por agotarse.
 
-🛒 3. Punto de Venta (POS)
+• Eliminación Lógica: Los productos cambian de estado para mantener la historia.
+
+
+
+• 🚦 Semáforo de Stock: Alertas visuales automáticas.
+
+🛒 3. PUNTO DE VENTA (POS)
 
 Diseñado para la velocidad en caja.
 
-Venta Rápida: Buscador inteligente y carrito interactivo.
+• Venta Rápida: Buscador inteligente y carrito interactivo.
 
-Gestión de Clientes: Registra clientes nuevos (NIT/CI) sin abandonar la venta.
 
-Stock Automático: Cada venta descuenta las unidades del inventario en tiempo real.
 
-📄 4. Reportes Profesionales
+• Gestión de Clientes: Registra clientes (NIT/CI) sin abandonar la venta.
+
+
+
+• Stock Automático: Descuento en tiempo real.
+
+📄 4. REPORTES PROFESIONALES
 
 Documentación lista para imprimir.
 
-PDFs Automáticos: Genera reportes de inventario valorizado con un clic.
+• PDFs Automáticos: Genera reportes de inventario valorizado.
 
-Tickets de Venta: Comprobantes detallados para cada transacción.
 
-🔒 5. Seguridad Blindada
+
+• Tickets de Venta: Comprobantes detallados para cada transacción.
+
+🔒 5. SEGURIDAD BLINDADA
 
 Protección para tu negocio.
 
-Acceso Seguro: Login protegido contra ataques de fuerza bruta.
+• Acceso Seguro: Login protegido.
 
-Captcha Matemático: Validación humana integrada.
 
-Auditoría: Registro inmutable de quién entra al sistema (IP, Fecha, Hora).
 
-🚀 Guía de Instalación Rápida
+• Captcha Matemático: Validación humana integrada.
 
-Sigue estos 3 pasos para tener el sistema corriendo en minutos.
+
+
+• Auditoría: Registro de IP, Fecha y Hora.
+
+</div>
+
+⚡ GUÍA DE INSTALACIÓN RÁPIDA
 
 Paso 1: Base de Datos 🐬
 
-Crea una base de datos vacía en tu gestor SQL favorito.
+Crea una base de datos vacía en tu gestor SQL.
 
 CREATE DATABASE floreria_db;
 
@@ -121,14 +135,11 @@ npm install      # Instala dependencias visuales
 npm run dev      # Lanza la aplicación
 
 
-📂 Estructura del Código
+📂 ESTRUCTURA DEL CÓDIGO
 
 FLORERIA_BOULEVARD/
-
 ├── 📂 BACKEND/          # API & Lógica de Negocio
-├
 ├── 📂 FRONTEND/         # Interfaz React (Vite)
-├
 └── 📄 .gitignore        # Configuración Git
 
 
