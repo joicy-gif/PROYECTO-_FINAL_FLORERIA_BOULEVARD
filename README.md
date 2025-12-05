@@ -128,11 +128,6 @@ FLORERIA_BOULEVARD/
 
 
 <div align="center">
-
-
-
-
-
 <p>© 2025 Florería Boulevard</p>
 <p><i>Programado con ❤️ por Joicy</i></p>
 </div>
