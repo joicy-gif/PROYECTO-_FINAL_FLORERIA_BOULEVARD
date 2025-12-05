@@ -1,136 +1,140 @@
-🌸 Florería Boulevard - Sistema de Gestión Integral
+<div align="center">
+
+🌸 Florería Boulevard
+
+Sistema de Gestión Integral
 
 Desarrollado por: JOICY MARIJO QUISPE QUISPE
 
+</div>
+
 📖 Descripción del Proyecto
 
-Florería Boulevard es una solución tecnológica Full Stack diseñada para optimizar la administración de inventarios y el flujo de ventas en negocios de floristería.
+Florería Boulevard es una solución tecnológica Full Stack diseñada para transformar la administración de negocios de floristería. Reemplaza los registros manuales por una plataforma digital robusta, optimizando el control de inventarios y agilizando el flujo de ventas.
 
-El sistema reemplaza los registros manuales por una plataforma digital robusta que permite:
+🛠️ Tecnologías (Tech Stack)
 
-Controlar el stock en tiempo real.
+Área
 
-Gestionar ventas con asignación de clientes.
+Tecnología
 
-Generar reportes automáticos en PDF.
+Detalles
 
-Visualizar el rendimiento del negocio mediante un Dashboard interactivo.
+Frontend
 
-🛠️ Tecnologías Utilizadas (Tech Stack)
 
-El proyecto ha sido construido utilizando una arquitectura moderna y escalable:
 
-Frontend: React.js con Tailwind CSS para una interfaz responsiva y moderna.
+Interfaz moderna y responsiva con Vite y Tailwind CSS.
 
-Backend: API RESTful construida sobre Node.js y Express.
+Backend
 
-Persistencia: Base de datos relacional MySQL.
 
-Seguridad: Encriptación de contraseñas y validación anti-bots.
 
-✨ Características Principales
+API RESTful rápida y escalable con Express.
 
-📊 Dashboard Ejecutivo
+Base de Datos
 
-Visualización de Datos: Gráficas estadísticas de stock en tiempo real.
 
-Resumen Rápido: Tarjetas informativas con indicadores clave del negocio.
 
-📦 Gestión de Inventario (CRUD)
+Persistencia relacional para integridad de datos.
 
-Control Total: Alta, baja y modificación de productos con facilidad.
+Seguridad
 
-Eliminación Lógica: Los productos no se borran, cambian de estado para preservar el historial de ventas.
 
-Alertas Inteligentes: Indicadores visuales automáticos para productos con "Stock Crítico".
 
-🛒 Punto de Venta (POS)
+Encriptación de contraseñas y protección anti-bots.
 
-Venta Rápida: Carrito de compras interactivo y fácil de usar.
+✨ Módulos y Características
 
-Gestión de Clientes: Selección y registro rápido de clientes (NIT/CI) sin salir de la venta.
+El sistema se divide en 5 módulos clave diseñados para la eficiencia operativa.
 
-Sincronización: Descuento automático de stock al confirmar la transacción.
+📊 1. Dashboard Ejecutivo
 
-📄 Reportes Inteligentes
+Un panel de control visual para la toma de decisiones.
 
-Exportación Profesional: Generación de PDFs para Inventario Valorizado.
+Gráficas en Tiempo Real: Visualiza el stock por categorías al instante.
 
-Comprobantes: Emisión automática de Tickets de Venta listos para imprimir.
+KPIs: Tarjetas de resumen con los indicadores más importantes del día.
 
-🔒 Seguridad Avanzada
+📦 2. Gestión de Inventario
 
-Acceso Blindado: Login con Captcha Matemático anti-bots.
+Control total sobre tus productos.
 
-Auditoría Completa: Registro detallado de accesos (Logs de IP, navegador y fecha).
+CRUD Completo: Crea, edita y gestiona flores y arreglos.
 
-📋 Requisitos de Instalación
+Eliminación Lógica: Los productos nunca se pierden; cambian de estado para mantener la historia.
 
-Antes de iniciar, asegúrate de contar con el siguiente entorno:
+🚦 Semáforo de Stock: Alertas visuales automáticas cuando un producto está por agotarse.
 
-Node.js (v14 o superior).
+🛒 3. Punto de Venta (POS)
 
-MySQL Server (XAMPP, Workbench o similar).
+Diseñado para la velocidad en caja.
 
-Git (Opcional).
+Venta Rápida: Buscador inteligente y carrito interactivo.
 
-🚀 Guía de Despliegue Rápido
+Gestión de Clientes: Registra clientes nuevos (NIT/CI) sin abandonar la venta.
+
+Stock Automático: Cada venta descuenta las unidades del inventario en tiempo real.
+
+📄 4. Reportes Profesionales
+
+Documentación lista para imprimir.
+
+PDFs Automáticos: Genera reportes de inventario valorizado con un clic.
+
+Tickets de Venta: Comprobantes detallados para cada transacción.
+
+🔒 5. Seguridad Blindada
+
+Protección para tu negocio.
+
+Acceso Seguro: Login protegido contra ataques de fuerza bruta.
+
+Captcha Matemático: Validación humana integrada.
+
+Auditoría: Registro inmutable de quién entra al sistema (IP, Fecha, Hora).
+
+🚀 Guía de Instalación Rápida
+
+Sigue estos 3 pasos para tener el sistema corriendo en minutos.
 
 Paso 1: Base de Datos 🐬
 
-Abre tu gestor SQL favorito (phpMyAdmin, Workbench).
+Crea una base de datos vacía en tu gestor SQL favorito.
 
-Crea una base de datos vacía llamada: floreria_db
+CREATE DATABASE floreria_db;
 
-Nota: No es necesario importar tablas. El sistema cuenta con Auto-Reparación y creará la estructura necesaria automáticamente al iniciar el servidor.
 
-Paso 2: Configuración del Backend (Servidor) 🟢
+(El sistema creará las tablas automáticamente al iniciar).
 
-El cerebro de la aplicación que gestiona la lógica y la conexión a datos.
+Paso 2: Servidor (Backend) 🟢
 
 cd BACKEND
-npm install      # Instala las dependencias del servidor
-node index.js    # Inicia el servicio
+npm install      # Instala dependencias
+node index.js    # Enciende el cerebro del sistema
 
 
-Deberías ver el mensaje: 🌸 Servidor PRO corriendo en puerto 3001
+Paso 3: Cliente (Frontend) ⚛️
 
-Paso 3: Configuración del Frontend (Cliente) ⚛️
-
-La interfaz visual donde interactúa el usuario.
-
-cd FRONTEND      # (En una nueva terminal)
-npm install      # Instala React, Vite y Tailwind
-npm run dev      # Inicia la aplicación web
+cd FRONTEND
+npm install      # Instala dependencias visuales
+npm run dev      # Lanza la aplicación
 
 
-Abre el enlace mostrado (ej: http://localhost:5173) en tu navegador.
-
-📂 Estructura del Proyecto
+📂 Estructura del Código
 
 FLORERIA_BOULEVARD/
-│
-├── 📂 BACKEND/             # Lógica del Servidor (API)
-│   ├── index.js            # Punto de entrada y Rutas
-│   └── db.js               # Conexión a MySQL
-│
-├── 📂 FRONTEND/            # Interfaz de Usuario (React)
-│   ├── src/pages/          # Vistas (Dashboard, Ventas, etc.)
-│   └── src/assets/         # Recursos estáticos
-│
-└── .gitignore              # Configuración de exclusión para Git
+├── 📂 BACKEND/          # API & Lógica de Negocio
+├── 📂 FRONTEND/         # Interfaz React (Vite)
+└── 📄 .gitignore        # Configuración Git
 
 
-🔑 Acceso al Sistema
+<div align="center">
 
-Si es la primera vez que ingresas:
 
-Ve a la pantalla de Registro.
 
-Crea un usuario administrador.
 
-Ingresa con tus credenciales resolviendo el Captcha de seguridad.
 
-© 2025 Florería Boulevard.
-
-Autor Principal: JOICY MARIJO QUISPE QUISPE
+<p>© 2025 Florería Boulevard</p>
+<p><i>Programado con ❤️ por Joicy</i></p>
+</div>
