@@ -1,89 +1,130 @@
-🌸 Florería Boulevard - Sistema de Gestión
+🌸 Florería Boulevard - Sistema de Gestión Integral
 
-Sistema Full Stack para la gestión de inventario y ventas de una florería.
-Desarrollado con React (Vite), Node.js (Express) y MySQL.
+Desarrollado por: JOICY MARIJO QUISPE QUISPE
 
-📋 Requisitos Previos
+📖 Descripción del Proyecto
 
-Antes de iniciar, asegúrate de tener instalado:
+Florería Boulevard es una solución tecnológica Full Stack diseñada para optimizar la administración de inventarios y el flujo de ventas en negocios de floristería.
+
+El sistema reemplaza los registros manuales por una plataforma digital robusta que permite:
+
+Controlar el stock en tiempo real.
+
+Gestionar ventas con asignación de clientes.
+
+Generar reportes automáticos en PDF.
+
+Visualizar el rendimiento del negocio mediante un Dashboard interactivo.
+
+🛠️ Tecnologías Utilizadas (Tech Stack)
+
+El proyecto ha sido construido utilizando una arquitectura moderna y escalable:
+
+Frontend: React.js con Tailwind CSS para una interfaz responsiva y moderna.
+
+Backend: API RESTful construida sobre Node.js y Express.
+
+Persistencia: Base de datos relacional MySQL.
+
+Seguridad: Encriptación de contraseñas y validación anti-bots.
+
+✨ Características Principales
+
+Dashboard Ejecutivo: Gráficas estadísticas de stock y tarjetas de resumen.
+
+Gestión de Inventario (CRUD):
+
+Alta, baja y modificación de productos.
+
+Eliminación Lógica: Los productos no se borran, cambian de estado para preservar el historial.
+
+Alertas visuales de "Stock Crítico".
+
+Punto de Venta (POS):
+
+Carrito de compras interactivo.
+
+Selección y registro rápido de clientes (NIT/CI).
+
+Descuento automático de stock al confirmar la venta.
+
+Reportes Inteligentes:
+
+Generación de PDFs para Inventario Valorizado y Tickets de Venta.
+
+Seguridad:
+
+Login con Captcha Matemático.
+
+Auditoría de accesos (Logs de IP y fecha).
+
+📋 Requisitos de Instalación
+
+Antes de iniciar, asegúrate de contar con el siguiente entorno:
 
 Node.js (v14 o superior).
 
-MySQL Server (XAMPP, MySQL Workbench, o similar).
+MySQL Server (XAMPP, Workbench o similar).
 
-Git (Opcional, para clonar el repositorio).
+Git (Opcional).
 
-🚀 Paso 1: Configuración de la Base de Datos
+🚀 Guía de Despliegue Rápido
 
-Abre tu gestor de base de datos (phpMyAdmin, Workbench, TablePlus).
+Paso 1: Base de Datos 🐬
 
-Crea una base de datos nueva llamada: floreria_db.
+Abre tu gestor SQL favorito (phpMyAdmin, Workbench).
 
-El sistema tiene una función de Auto-Reparación. Al iniciar el servidor Backend por primera vez, creará las tablas necesarias (usuarios, productos, ventas, detalle_ventas) automáticamente.
+Crea una base de datos vacía llamada: floreria_db
 
-(Opcional) Si tienes un archivo seeder.js, ejecútalo para llenar productos de prueba.
+Nota: No es necesario importar tablas. El sistema cuenta con Auto-Reparación y creará la estructura necesaria automáticamente al iniciar el servidor.
 
-🛠️ Paso 2: Instalación del Backend (Servidor)
+Paso 2: Configuración del Backend (Servidor) 🟢
 
-El backend maneja la lógica, la conexión a la BD y la seguridad.
-
-Abre una terminal y entra a la carpeta del backend:
+El cerebro de la aplicación que gestiona la lógica y la conexión a datos.
 
 cd BACKEND
+npm install      # Instala las dependencias del servidor
+node index.js    # Inicia el servicio
 
 
-Instala las dependencias:
+Deberías ver el mensaje: 🌸 Servidor PRO corriendo en puerto 3001
 
-npm install
-
-
-Configura tu conexión a la base de datos en el archivo db.js (verifica usuario y contraseña de tu MySQL).
-
-Inicia el servidor:
-
-npm run dev
-# O también: node index.js
-
-
-Deberías ver el mensaje: "🌸 Servidor corriendo en el puerto 3001"
-
-🎨 Paso 3: Instalación del Frontend (Cliente)
+Paso 3: Configuración del Frontend (Cliente) ⚛️
 
 La interfaz visual donde interactúa el usuario.
 
-Abre otra terminal (sin cerrar la del backend) y entra a la carpeta del frontend:
-
-cd FRONTEND
-
-
-Instala las dependencias:
-
-npm install
+cd FRONTEND      # (En una nueva terminal)
+npm install      # Instala React, Vite y Tailwind
+npm run dev      # Inicia la aplicación web
 
 
-Inicia la aplicación:
+Abre el enlace mostrado (ej: http://localhost:5173) en tu navegador.
 
-npm run dev
+📂 Estructura del Proyecto
+
+FLORERIA_BOULEVARD/
+│
+├── 📂 BACKEND/             # Lógica del Servidor (API)
+│   ├── index.js            # Punto de entrada y Rutas
+│   └── db.js               # Conexión a MySQL
+│
+├── 📂 FRONTEND/            # Interfaz de Usuario (React)
+│   ├── src/pages/          # Vistas (Dashboard, Ventas, etc.)
+│   └── src/assets/         # Recursos estáticos
+│
+└── .gitignore              # Configuración de exclusión para Git
 
 
-Abre el link que aparece en la terminal (usualmente http://localhost:5173) en tu navegador.
+🔑 Acceso al Sistema
 
-🔑 Credenciales de Acceso
+Si es la primera vez que ingresas:
 
-Para ingresar al sistema por primera vez, registra un usuario desde la pantalla de Registro o inserta uno manualmente en la base de datos si deshabilitaste el registro público.
+Ve a la pantalla de Registro.
 
-📦 Estructura del Proyecto
+Crea un usuario administrador.
 
-/BACKEND
+Ingresa con tus credenciales resolviendo el Captcha de seguridad.
 
-index.js: Punto de entrada del servidor y rutas API.
+© 2025 Florería Boulevard.
 
-db.js: Configuración de conexión MySQL.
-
-/FRONTEND
-
-/src/pages: Vistas principales (Dashboard, Ventas, Inventario, Historial).
-
-/src/assets: Imágenes y recursos estáticos.
-
-Desarrollado por JOICY
+Autor Principal: JOICY MARIJO QUISPE QUISPE
