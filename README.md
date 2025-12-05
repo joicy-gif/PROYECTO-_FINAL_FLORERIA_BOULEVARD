@@ -111,22 +111,14 @@ Abre el enlace mostrado (ej: http://localhost:5173) en tu navegador.
 FLORERIA_BOULEVARD/
 │
 ├── 📂 BACKEND/             # Lógica del Servidor (API)
-
 │   ├── index.js            # Punto de entrada y Rutas
-
 │   └── db.js               # Conexión a MySQL
-
 │
 ├── 📂 FRONTEND/            # Interfaz de Usuario (React)
-
 │   ├── src/pages/          # Vistas (Dashboard, Ventas, etc.)
-
 │   └── src/assets/         # Recursos estáticos
-
 │
 └── .gitignore              # Configuración de exclusión para Git
-
-
 
 
 🔑 Acceso al Sistema
