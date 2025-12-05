@@ -4,11 +4,15 @@
 
 Sistema de Gestión Integral
 
-Desarrollado por: ### ✨ JOICY MARIJO QUISPE QUISPE ✨
+✨ JOICY MARIJO QUISPE QUISPE ✨
+
+Desarrolladora Full Stack
+
+</div>
 
 📖 DESCRIPCIÓN DEL PROYECTO
 
-Florería Boulevard es una solución tecnológica Full Stack diseñada para transformar la administración de negocios de floristería. Reemplaza los registros manuales por una plataforma digital robusta, optimizando el control de inventarios y agilizando el flujo de ventas.
+Florería Boulevard es una solución tecnológica diseñada para transformar la administración de negocios de floristería. Reemplaza los registros manuales por una plataforma digital robusta, optimizando el control de inventarios y agilizando el flujo de ventas.
 
 🛠️ TECNOLOGÍAS (TECH STACK)
 
@@ -46,7 +50,7 @@ Encriptación y protección anti-bots.
 
 📊 1. DASHBOARD EJECUTIVO
 
-Un panel de control visual para la toma de decisiones.
+Un panel de control visual para la toma de decisiones estratégicas.
 
 Gráficas en Tiempo Real: Visualiza el stock por categorías al instante.
 
@@ -54,13 +58,13 @@ KPIs: Tarjetas de resumen con los indicadores más importantes del día.
 
 📦 2. GESTIÓN DE INVENTARIO
 
-Control total sobre tus productos.
+Control total sobre tus productos con herramientas avanzadas.
 
 CRUD Completo: Crea, edita y gestiona flores y arreglos.
 
-Eliminación Lógica: Los productos cambian de estado para mantener la historia.
+Eliminación Lógica: Los productos cambian de estado (Activo/Inactivo) para mantener la historia.
 
-🚦 Semáforo de Stock: Alertas visuales automáticas.
+🚦 Semáforo de Stock: Alertas visuales automáticas para reposición.
 
 🛒 3. PUNTO DE VENTA (POS)
 
@@ -70,11 +74,11 @@ Venta Rápida: Buscador inteligente y carrito interactivo.
 
 Gestión de Clientes: Registra clientes (NIT/CI) sin abandonar la venta.
 
-Stock Automático: Descuento en tiempo real.
+Stock Automático: Descuento en tiempo real tras cada transacción.
 
 📄 4. REPORTES PROFESIONALES
 
-Documentación lista para imprimir.
+Documentación lista para imprimir y auditar.
 
 PDFs Automáticos: Genera reportes de inventario valorizado.
 
@@ -82,15 +86,15 @@ Tickets de Venta: Comprobantes detallados para cada transacción.
 
 🔒 5. SEGURIDAD BLINDADA
 
-Protección para tu negocio.
+Protección integral para tu negocio.
 
-Acceso Seguro: Login protegido.
+Acceso Seguro: Login protegido contra intrusos.
 
 Captcha Matemático: Validación humana integrada.
 
-Auditoría: Registro de IP, Fecha y Hora.
+Auditoría: Registro de IP, Fecha y Hora de cada acceso.
 
-⚡ GUÍA DE INSTALACIÓN RÁPIDA
+⚡ GUÍA DE INSTALACIÓN
 
 Paso 1: Base de Datos 🐬
 
