@@ -44,71 +44,51 @@ Encriptación y protección anti-bots.
 
 🚀 MÓDULOS Y CARACTERÍSTICAS
 
-<div align="center">
-
 📊 1. DASHBOARD EJECUTIVO
 
 Un panel de control visual para la toma de decisiones.
 
-• Gráficas en Tiempo Real: Visualiza el stock por categorías al instante.
+Gráficas en Tiempo Real: Visualiza el stock por categorías al instante.
 
-
-
-• KPIs: Tarjetas de resumen con los indicadores más importantes del día.
+KPIs: Tarjetas de resumen con los indicadores más importantes del día.
 
 📦 2. GESTIÓN DE INVENTARIO
 
 Control total sobre tus productos.
 
-• CRUD Completo: Crea, edita y gestiona flores y arreglos.
+CRUD Completo: Crea, edita y gestiona flores y arreglos.
 
+Eliminación Lógica: Los productos cambian de estado para mantener la historia.
 
-
-• Eliminación Lógica: Los productos cambian de estado para mantener la historia.
-
-
-
-• 🚦 Semáforo de Stock: Alertas visuales automáticas.
+🚦 Semáforo de Stock: Alertas visuales automáticas.
 
 🛒 3. PUNTO DE VENTA (POS)
 
 Diseñado para la velocidad en caja.
 
-• Venta Rápida: Buscador inteligente y carrito interactivo.
+Venta Rápida: Buscador inteligente y carrito interactivo.
 
+Gestión de Clientes: Registra clientes (NIT/CI) sin abandonar la venta.
 
-
-• Gestión de Clientes: Registra clientes (NIT/CI) sin abandonar la venta.
-
-
-
-• Stock Automático: Descuento en tiempo real.
+Stock Automático: Descuento en tiempo real.
 
 📄 4. REPORTES PROFESIONALES
 
 Documentación lista para imprimir.
 
-• PDFs Automáticos: Genera reportes de inventario valorizado.
+PDFs Automáticos: Genera reportes de inventario valorizado.
 
-
-
-• Tickets de Venta: Comprobantes detallados para cada transacción.
+Tickets de Venta: Comprobantes detallados para cada transacción.
 
 🔒 5. SEGURIDAD BLINDADA
 
 Protección para tu negocio.
 
-• Acceso Seguro: Login protegido.
+Acceso Seguro: Login protegido.
 
+Captcha Matemático: Validación humana integrada.
 
-
-• Captcha Matemático: Validación humana integrada.
-
-
-
-• Auditoría: Registro de IP, Fecha y Hora.
-
-</div>
+Auditoría: Registro de IP, Fecha y Hora.
 
 ⚡ GUÍA DE INSTALACIÓN RÁPIDA
 
