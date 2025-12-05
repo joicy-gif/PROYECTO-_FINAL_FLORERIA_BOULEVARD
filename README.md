@@ -121,7 +121,9 @@ npm run dev      # Lanza la aplicación
 
 📂 ESTRUCTURA DEL CÓDIGO
 
+
 FLORERIA_BOULEVARD/
+
 ├── 📂 BACKEND/          # API & Lógica de Negocio
 
 ├── 📂 FRONTEND/         # Interfaz React (Vite)
