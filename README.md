@@ -52,23 +52,23 @@ Seguridad
 
 Encriptación y protección anti-bots.
 
-🚀 MÓDULOS Y CARACTERÍSTICAS
+🚀 MÓDULOS Y CARACTERÍSTICAS DESTACADAS
 
 📊 1. DASHBOARD EJECUTIVO
 
-Un panel de control visual para la toma de decisiones estratégicas.
+Toma de decisiones basada en datos visuales.
 
-Gráficas en Tiempo Real: Visualiza el stock por categorías al instante.
+📈 Gráficas en Tiempo Real: Visualiza el stock por categorías al instante.
 
-KPIs: Tarjetas de resumen con los indicadores más importantes del día.
+⚡ KPIs: Tarjetas de resumen con los indicadores más importantes del día.
 
 📦 2. GESTIÓN DE INVENTARIO
 
-Control total sobre tus productos con herramientas avanzadas.
+Control total y flexible de tus productos.
 
-CRUD Completo: Crea, edita y gestiona flores y arreglos.
+✏️ CRUD Completo: Crea, edita y gestiona flores y arreglos.
 
-Eliminación Lógica: Los productos cambian de estado (Activo/Inactivo) para mantener la historia.
+🗑️ Eliminación Lógica: Los productos nunca se pierden; cambian de estado (Activo/Inactivo) para mantener la historia.
 
 🚦 Semáforo de Stock: Alertas visuales automáticas para reposición.
 
@@ -76,29 +76,29 @@ Eliminación Lógica: Los productos cambian de estado (Activo/Inactivo) para man
 
 Diseñado para la velocidad en caja.
 
-Venta Rápida: Buscador inteligente y carrito interactivo.
+🛍️ Venta Rápida: Buscador inteligente y carrito interactivo.
 
-Gestión de Clientes: Registra clientes (NIT/CI) sin abandonar la venta.
+👤 Gestión de Clientes: Registra clientes (NIT/CI) sin abandonar la venta.
 
-Stock Automático: Descuento en tiempo real tras cada transacción.
+📉 Stock Automático: Descuento en tiempo real tras cada transacción.
 
 📄 4. REPORTES PROFESIONALES
 
 Documentación lista para imprimir y auditar.
 
-PDFs Automáticos: Genera reportes de inventario valorizado.
+📑 PDFs Automáticos: Genera reportes de inventario valorizado.
 
-Tickets de Venta: Comprobantes detallados para cada transacción.
+🧾 Tickets de Venta: Comprobantes detallados para cada transacción.
 
 🔒 5. SEGURIDAD BLINDADA
 
 Protección integral para tu negocio.
 
-Acceso Seguro: Login protegido contra intrusos.
+🔑 Acceso Seguro: Login protegido contra intrusos.
 
-Captcha Matemático: Validación humana integrada.
+🤖 Captcha Matemático: Validación humana integrada.
 
-Auditoría: Registro de IP, Fecha y Hora de cada acceso.
+👁️ Auditoría: Registro de IP, Fecha y Hora de cada acceso.
 
 ⚡ GUÍA DE INSTALACIÓN
 
@@ -129,7 +129,9 @@ npm run dev      # Lanza la aplicación
 
 FLORERIA_BOULEVARD/
 ├── 📂 BACKEND/          # API & Lógica de Negocio
+|
 ├── 📂 FRONTEND/         # Interfaz React (Vite)
+|
 └── 📄 .gitignore        # Configuración Git
 
 
