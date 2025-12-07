@@ -129,13 +129,10 @@ npm run dev      # Lanza la aplicación
 
 FLORERIA_BOULEVARD/
 ├── 📂 BACKEND/          # API & Lógica de Negocio
-|
 ├── 📂 FRONTEND/         # Interfaz React (Vite)
-|
 └── 📄 .gitignore        # Configuración Git
 
 
 <div align="center">
 <p>© 2025 Florería Boulevard</p>
-<p><i>Desarrollado con ❤️ por el equipo</i></p>
 </div>
