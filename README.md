@@ -4,9 +4,11 @@
 
 Sistema de Gestión Integral
 
-✨ JOICY MARIJO QUISPE QUISPE ✨
+✨ EQUIPO DE DESARROLLO ✨
 
-Desarrolladora Full Stack
+JOICY MARIJO QUISPE QUISPE
+ROSTANNE NAYRA QUISPE CORDERO
+ALEJANDRO IGNACIO OROZCO AGUILAR
 
 </div>
 
@@ -121,18 +123,13 @@ npm run dev      # Lanza la aplicación
 
 📂 ESTRUCTURA DEL CÓDIGO
 
-
 FLORERIA_BOULEVARD/
-
 ├── 📂 BACKEND/          # API & Lógica de Negocio
-
 ├── 📂 FRONTEND/         # Interfaz React (Vite)
-
 └── 📄 .gitignore        # Configuración Git
-
 
 
 <div align="center">
 <p>© 2025 Florería Boulevard</p>
-<p><i>Programado con ❤️ por Joicy</i></p>
+<p><i>Desarrollado con ❤️ por el equipo</i></p>
 </div>
