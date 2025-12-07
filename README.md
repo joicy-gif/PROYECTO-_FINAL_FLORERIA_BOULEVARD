@@ -4,6 +4,8 @@
 
 Sistema de Gestión Integral
 
+✨ EQUIPO DE DESARROLLO ✨
+
  JOICY MARIJO QUISPE QUISPE 
  
  
