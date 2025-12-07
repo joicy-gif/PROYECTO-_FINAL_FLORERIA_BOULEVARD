@@ -4,11 +4,12 @@
 
 Sistema de Gestión Integral
 
-✨ EQUIPO DE DESARROLLO ✨
+ JOICY MARIJO QUISPE QUISPE 
+ ROSTANNE NAYRA QUISPE CORDERO
+ ALEJANDRO IGNACIO OROZCO AGUILAR
+ 
 
-JOICY MARIJO QUISPE QUISPE
-ROSTANNE NAYRA QUISPE CORDERO
-ALEJANDRO IGNACIO OROZCO AGUILAR
+Desarrolladora Full Stack
 
 </div>
 
@@ -110,26 +111,29 @@ CREATE DATABASE floreria_db;
 Paso 2: Servidor (Backend) 🟢
 
 cd BACKEND
-npm install      # Instala dependencias
-node index.js    # Enciende el cerebro del sistema
+npm install      # Instala dependencias
+node index.js    # Enciende el cerebro del sistema
 
 
 Paso 3: Cliente (Frontend) ⚛️
 
 cd FRONTEND
-npm install      # Instala dependencias visuales
-npm run dev      # Lanza la aplicación
+npm install      # Instala dependencias visuales
+npm run dev      # Lanza la aplicación
 
 
 📂 ESTRUCTURA DEL CÓDIGO
 
+
 FLORERIA_BOULEVARD/
-├── 📂 BACKEND/          # API & Lógica de Negocio
-├── 📂 FRONTEND/         # Interfaz React (Vite)
-└── 📄 .gitignore        # Configuración Git
+
+├── 📂 BACKEND/          # API & Lógica de Negocio
+
+├── 📂 FRONTEND/         # Interfaz React (Vite)
+
+└── 📄 .gitignore        # Configuración Git
+
 
 
 <div align="center">
-<p>© 2025 Florería Boulevard</p>
-<p><i>Desarrollado con ❤️ por el equipo</i></p>
-</div>
+<p> 2025 Florería Boulevard</p>
