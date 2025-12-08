@@ -69,3 +69,16 @@ Crea una base de datos vacía en tu gestor SQL.
 ```sql
 CREATE DATABASE floreria_db;
 -- El sistema creará las tablas automáticamente al iniciar
+
+cd BACKEND
+npm install      # Instala dependencias
+node index.js    # Enciende el cerebro del sistema
+
+cd FRONTEND
+npm install      # Instala dependencias visuales
+npm run dev      # Lanza la aplicación
+
+FLORERIA_BOULEVARD/
+├── 📂 BACKEND/          # API & Lógica de Negocio
+├── 📂 FRONTEND/         # Interfaz React (Vite)
+└── 📄 .gitignore        # Configuración Git
