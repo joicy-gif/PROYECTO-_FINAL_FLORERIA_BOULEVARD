@@ -5,9 +5,9 @@
 
 ✨ **EQUIPO DE DESARROLLO** ✨
 
-| JOICY MARIJO QUISPE QUISPE | ROSTANNE NAYRA QUISPE CORDERO | ALEJANDRO IGNACIO OROZCO AGUILAR |
-| :---: | :---: | :---: |
-| **Full Stack Developer** | **Full Stack Developer** | **Full Stack Developer** |
+| JOICY MARIJO QUISPE QUISPE | ----- | ALEJANDRO IGNACIO OROZCO AGUILAR |
+| :---: | ---- | :---: |
+| **Full Stack Developer** | ----- | **Full Stack Developer** |
 
 </div>
 
